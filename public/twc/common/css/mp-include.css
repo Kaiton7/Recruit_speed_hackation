@@ -1,0 +1,135 @@
+﻿@charset "utf-8";
+/* include contents style */
+
+
+
+/* 企業・店舗情報、求人情報枠インクルード start -------------------------------------*/
+/* コンテンツインクルード start -------------------------------------*/
+.mp-wrap-usefulcontents,
+.mp-wrap-specialcontents {
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 304px;
+}
+
+.mp-lst-usefulcontents > li,
+.mp-lst-specialcontents >li {
+	margin-top: 10px;
+}
+
+
+
+
+.mp-inner-ntf {
+	display: table;
+	padding-bottom: 3px;
+	padding-left: 4px;	
+	padding-right: 4px;
+	padding-top: 3px;
+	min-height: 33px;
+	margin: 0 auto;
+}
+
+.mp-ttl-ntf {
+	background-color: #fde5db;
+	border-radius: 5px;
+	display: table-cell;
+	height: 100%;
+	text-indent: -99999px;
+	overflow: hidden;
+	width: 25px;
+	vertical-align: middle;
+}
+
+.mp-ttl-ntf-inner {
+	position: relative;
+	height: 100%;
+}
+
+.mp-ttl-ntf-inner:after{
+	content:"";
+	display: block;
+	position: absolute;
+	background-position: 0 0;
+	height: 15px;
+	width: 15px;
+	top: 50%;
+	left: 50%;
+	margin-top: -7px;
+	margin-left: -7px;
+}
+
+.mp-lst-ntf {
+	display: table-cell;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	vertical-align: middle;
+}
+
+.mp-lst-ntf li {
+	color: #f66b34;
+	font-size: 12px;
+	line-height: 1.3;
+	padding-top: 7px;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+.mp-lst-ntf li:first-child {
+	padding-top: 0;
+}
+
+.mp-lst-ntf a {
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+
+/* header-alert start -------------------------------------*/
+.mp-header-alert-wrap {
+	background: #ffca00;
+	padding-top: 9px;
+	padding-bottom: 5px;
+}
+
+/* 共通フッターインクルード */
+.mp-contents-ft-link-wrap {
+	margin-top: 25px;
+}
+
+.mp-contents-ft-link-ttl {
+	font-weight: bold;
+	font-size: 11px;
+	padding-top: 3px;
+	padding-left: 10px;
+	padding-bottom: 3px;
+}
+
+.mp-contents-ft-link-lst {
+	padding-left: 10px;
+}
+
+.mp-contents-ft-link-lst li {
+	line-height: 1.3;
+	display: inline-block;
+	padding-top: 10px;
+	padding-right: 7px;
+	font-size: 11px;
+}
+
+.mp-contents-ft-link-lst li:after {
+	content: "|";
+	padding-left: 9px;
+}
+
+.mp-contents-ft-link-lst li:last-child:after {
+	content: "";
+	padding-left: 0;
+}
+
+.mp-contents-ft-link-lst li a {
+	text-decoration: underline;
+}
+
